@@ -1,0 +1,12 @@
+[submodule "cph"]
+	path = cph
+	url = https://github.com/lostdj/Jaklin-CPH.git
+[submodule "myavn"]
+	path = myavn
+	url = https://github.com/lostdj/Jaklin-Avian.git
+[submodule "myjdktop"]
+	path = myjdktop
+	url = https://github.com/lostdj/Jaklin-OpenJDK.git
+[submodule "myfx"]
+	path = myfx
+	url = https://github.com/lostdj/Jaklin-OpenJFX.git
