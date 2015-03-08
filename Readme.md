@@ -4,13 +4,13 @@ Java/Avian, OpenJDK and JavaFX/OpenJFX web port.
 
 As this is a very early and incomplete port the demos are very much broken, buggy and slow as hell. Chrome is at least 2x faster and stable in runtime, and Firefox is faster in load time. Funny.
 
-[Simple and stupid](http://ltp.name/Jaklin/test/stupid)
-[Brick Breaker](http://ltp.name/Jaklin/test/brickbreaker)
-[Modena](http://ltp.name/Jaklin/test/modena-uimosaic)
-[Ensemble](http://ltp.name/Jaklin/test/ensemble)
+[Simple and stupid](http://ltp.name/Jaklin/test/stupid)  
+[Brick Breaker](http://ltp.name/Jaklin/test/brickbreaker)  
+[Modena](http://ltp.name/Jaklin/test/modena-uimosaic)  
+[Ensemble](http://ltp.name/Jaklin/test/ensemble)  
 
-As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://ltp.name/Jaklin/test/jb2d). Press `space` to switch between test scenes.
-Source code: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/jbox2d
+As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://ltp.name/Jaklin/test/jb2d). Press `space` to switch between test scenes.  
+Source code: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/jbox2d  
 Yes, the renderer is broken and it's not just you. Here's the same demo running in applet: http://www.jbox2d.org/
 
 There also was a Quake 2 port via Jake2, with no renderer at all: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/q2 It was... Slow.
