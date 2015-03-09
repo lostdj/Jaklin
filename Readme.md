@@ -48,10 +48,10 @@ The same SDL port can run natively, too. Remove `arch=ems` from the above make c
 
 - Code and repo cleanup and refactoring;
 - Replace makefiles with something else. That something else won't be CMake;
-- Loading time;
+- Loading time improvements;
 - Stage/WebGL canvas creation works incorrectly;
 - Mouse handling impl is incomplete;
-- Keyboard handling impl in nonexistent;
+- Keyboard handling impl is nonexistent;
 - Cliboard handling, media module, ...;
 - PNaCl port.
 
