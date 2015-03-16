@@ -4,10 +4,10 @@ Java/Avian, OpenJDK and JavaFX/OpenJFX web port.
 
 As this is a very early and incomplete port the demos are very much broken, buggy and slow as hell. Chrome is at least 2x faster and stable in runtime, and Firefox is faster in load time. Funny.
 
-[Simple and stupid](http://ltp.name/Jaklin/test/stupid)  
-[Brick Breaker](http://ltp.name/Jaklin/test/brickbreaker)  
-[Modena](http://ltp.name/Jaklin/test/modena-uimosaic)  
-[Ensemble](http://ltp.name/Jaklin/test/ensemble)  
+[Simple and stupid](http://jaklin.ghp.ltp.name/test/stupid)  
+[Brick Breaker](http://jaklin.ghp.ltp.name/test/brickbreaker)  
+[Modena](http://jaklin.ghp.ltp.name/test/modena-uimosaic)  
+[Ensemble](http://jaklin.ghp.ltp.name/test/ensemble)  
 
 As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://ltp.name/Jaklin/test/jb2d). Press `space` to switch between test scenes. This build was compiled against Avian CP, that's why it is so small.  
 Source code: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/jbox2d  
@@ -87,3 +87,6 @@ One major point to consider when deciding which way to choose is a dynamic code 
 
 And the other one, I'd like to find an acceptable solution to "rule them all" and run the same code on all platforms.
 
+Another bottlneck is this: http://i.imgur.com/q94aHq7.png  
+The first tried fix was to inline all that mess in one function by hands. It became unmaintainable very quickly.  
+And the second one was to modify all these functions to a static ones and run Soot's inline pass. No luck there, too.
