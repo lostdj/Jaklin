@@ -4,10 +4,10 @@ Java/Avian, OpenJDK and JavaFX/OpenJFX web port.
 
 As this is a very early and incomplete port the demos are very much broken, buggy and slow as hell. Chrome is at least 2x faster and stable in runtime, and Firefox is faster in load time. Funny.
 
-[Simple and stupid](http://jaklin.ghp.ltp.name/test/stupid)  
-[Brick Breaker](http://jaklin.ghp.ltp.name/test/brickbreaker)  
-[Modena](http://jaklin.ghp.ltp.name/test/modena-uimosaic)  
-[Ensemble](http://jaklin.ghp.ltp.name/test/ensemble)  
+[Simple and stupid](http://jaklin-ghp.asd.im/test/stupid)  
+[Brick Breaker](http://jaklin-ghp.asd.im/test/brickbreaker)  
+[Modena](http://jaklin-ghp.asd.im/test/modena-uimosaic)  
+[Ensemble](http://jaklin-ghp.asd.im/test/ensemble)  
 
 As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://ltp.name/Jaklin/test/jb2d). Press `space` to switch between test scenes. This build was compiled against Avian CP, that's why it is so small.  
 Source code: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/jbox2d  
