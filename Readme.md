@@ -9,7 +9,7 @@ As this is a very early and incomplete port the demos are very much broken, bugg
 [Modena](http://jaklin-ghp.asd.im/test/modena-uimosaic)  
 [Ensemble](http://jaklin-ghp.asd.im/test/ensemble)  
 
-As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://ltp.name/Jaklin/test/jb2d). Press `space` to switch between test scenes. This build was compiled against Avian CP, that's why it is so small.  
+As a bonus, here is one of the first tests made before JFX port was started: [JBox2D tests](http://jaklin-ghp.asd.im/test/jb2d). Press `space` to switch between test scenes. This build was compiled against Avian CP, that's why it is so small.  
 Source code: https://github.com/lostdj/Jaklin-Avian/tree/jaklin-master/mytest/jbox2d  
 Yes, the renderer is broken and it's not just you. Here's the same demo running in an applet: http://www.jbox2d.org/
 
